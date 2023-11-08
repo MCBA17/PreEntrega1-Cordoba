@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+header {
+    background-image: url("../assets/media/header.jpg");
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px;
+    overflow: auto;
+    border-bottom: 2px solid white;
+}
+
+header img {
+    float: left;
+    height: 5rem;
+}
+
+header nav {
+    float: right;
+    padding-top: 30px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+}
+
+footer {
+    background-image: url("../assets/media/header.jpg");
+    background-size: cover;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid white;
+}
+
+footer p{
+    color: white;
+}
+
+.icon-container {
+    margin-top: 10px;
+}
+
+.icon-container a {
+    display: inline-block;
+    margin: 0 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.icon-container img {
+    width: 30px;
+    height: 30px;
+}
+
+body.index{
+    background-image: url("../assets/media/gifinicio.gif");
+    background-size: cover;
+    overflow: auto;
+}
+
+body.descargas{
+    background-image: url("../assets/media/gifdescargar.gif");
+    background-size: cover;
+    overflow: auto;
+}
+
+body.faq{
+    background-image: url("../assets/media/giffaq.gif");
+    background-size:cover;
+    overflow: auto;
+}
+
+body.ver-mas{
+    background-image: url("../assets/media/ver_mas.jpg");
+    background-size: cover;
+    overflow: auto;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio-title{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: large;
+    color: #ffffff;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #bfd8ff;
+    border-radius: 5px;
+}
+
+#descargas-img{
+    width: 739px;
+    height: 400px;
+    padding-left: 30%;
+    padding-top: 1%;
+}
+
+.descargas-container{
+    text-align: center;
+    margin-left: 30%;
+    margin-right:30%;
+    margin-bottom: 100px;;
+    border-top: 3px solid white;
+    padding-top: 30px;
+}
+
+.descargas-ico{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.descargas-txt{
+    color: white;
+    margin-left: 42%;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.button-descargas{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #bfd8ff;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.button-fix{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #bfd8ff;
+    border-radius: 5px;
+    margin-right: 10%;
+}
+
+#faq-title{
+    color: white;
+    font-size: 30px;
+    margin-left: 48%;
+    margin-top: 1%;
+}
+
+.faq-container{
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    background-color: #C19A6B;
+    border: 7px solid #592E0B;
+    border-radius: 5px;
+}
+
+.faq-question{
+    color: rgb(117, 82, 82);
+    font-size: 25px;
+}
+
+.faq-txt{
+    color: #ffffcc;
+    font-size: 18px;
+}
+
+.ver-mas-container{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.ver-mas-img-container{
+    display: flex;
+}
+
+.ver-mas-img{
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.ver-mas-img img{
+    height: 365px;
+    width: 500px;
+    border: 5px solid #4285f4;
+    border-radius: 10px;
+}
+
+.ver-mas-txt{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #C19A6B;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.ver-mas-title{
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    background-color: #99713f;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+p a{
+    text-decoration: none;
+    color: white;
+}
