@@ -77,30 +77,35 @@ body.index{
     background-image: url("../assets/media/gifinicio.gif");
     background-size: cover;
     overflow: auto;
+    background-attachment: fixed;
 }
 
 body.descargas{
     background-image: url("../assets/media/gifdescargar.gif");
     background-size: cover;
     overflow: auto;
+    background-attachment: fixed;
 }
 
 body.faq{
     background-image: url("../assets/media/giffaq.gif");
     background-size:cover;
     overflow: auto;
+    background-attachment: fixed;
 }
 
 body.ver-mas{
     background-image: url("../assets/media/ver_mas.jpg");
     background-size: cover;
     overflow: auto;
+    background-attachment: fixed;
 }
 
 body.galeria {
     background-image: url("../assets/media/galeria.png");
     background-size: cover;
     overflow: auto;
+    background-attachment: fixed;
 }
 
 .video-container{
@@ -196,8 +201,8 @@ body.galeria {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
-    background-color: #C19A6B;
-    border: 7px solid #592E0B;
+    background-color: #fdc37b;
+    border: 7px solid brown;
     border-radius: 5px;
 }
 
@@ -207,7 +212,7 @@ body.galeria {
 }
 
 .faq-txt{
-    color: #ffffcc;
+    color: #3d3d1d;
     font-size: 18px;
 }
 
@@ -231,7 +236,7 @@ body.galeria {
 .ver-mas-img img{
     height: 365px;
     width: 500px;
-    border: 5px solid #4285f4;
+    border: 5px solid #99713f;
     border-radius: 10px;
 }
 
