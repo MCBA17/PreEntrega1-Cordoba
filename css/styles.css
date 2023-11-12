@@ -97,6 +97,12 @@ body.ver-mas{
     overflow: auto;
 }
 
+body.galeria {
+    background-image: url("../assets/media/galeria.png");
+    background-size: cover;
+    overflow: auto;
+}
+
 .video-container{
     display: flex;
     justify-content: center;
@@ -251,4 +257,42 @@ body.ver-mas{
 p a{
     text-decoration: none;
     color: white;
+}
+
+.galeria-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+}
+
+.galeria-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdc37b;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 270px;
+    margin-left: 270px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.galeria-img{
+    height: 600px;
+    width: 1050px;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.galeria-img:last-child{
+    height: 600px;
+    width: 1050px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    border: 3px solid white;
 }
